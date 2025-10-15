@@ -149,3 +149,58 @@ footer {
   font-size: 0.9em;
 
 }
+/* 🛍️ Estilo de la tienda */
+#tienda {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-top: 3px solid var(--amarillo);
+  border-bottom: 3px solid var(--rojo);
+}
+
+.tienda-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.producto {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 15px;
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--amarillo);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px black;
+}
+
+.producto h3 {
+  margin: 10px 0 5px;
+  color: var(--amarillo);
+}
+
+.producto p {
+  font-size: 0.9em;
+  background: none;
+  color: #eee;
+}
+
+.precio {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--amarillo);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
