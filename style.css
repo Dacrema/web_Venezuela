@@ -1,0 +1,151 @@
+/* Colores inspirados en la bandera de Venezuela */
+
+:root {
+
+  --amarillo: #fcd116;
+
+  --azul: #0033a0;
+
+  --rojo: #d52b1e;
+
+}
+
+body {
+
+  font-family: "Segoe UI", sans-serif;
+
+  margin: 0;
+
+  background: linear-gradient(180deg, var(--amarillo) 0%, var(--azul) 50%, var(--rojo) 100%);
+
+  color: #fff;
+
+}
+
+header {
+
+  text-align: center;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  padding: 20px;
+
+}
+
+h1 {
+
+  font-size: 2.5em;
+
+  margin-bottom: 5px;
+
+  text-shadow: 2px 2px 5px black;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+nav ul li {
+
+  display: inline-block;
+
+  margin: 0 15px;
+
+}
+
+nav a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+  background: rgba(0, 0, 0, 0.3);
+
+  padding: 8px 15px;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
+
+}
+
+nav a:hover {
+
+  background: white;
+
+  color: var(--rojo);
+
+}
+
+main {
+
+  background: rgba(255, 255, 255, 0.1);
+
+  padding: 20px;
+
+}
+
+h2, h3 {
+
+  color: var(--amarillo);
+
+  text-shadow: 1px 1px 3px black;
+
+}
+
+p {
+
+  background: rgba(0, 0, 0, 0.3);
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+}
+
+img {
+
+  width: 80%;
+
+  max-width: 500px;
+
+  display: block;
+
+  margin: 20px auto;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px black;
+
+}
+
+.galeria {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+}
+
+footer {
+
+  background: rgba(0, 0, 0, 0.6);
+
+  text-align: center;
+
+  padding: 15px;
+
+  font-size: 0.9em;
+
+}
