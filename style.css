@@ -52,7 +52,7 @@ nav ul {
 
 nav ul li {
 
-  display: inline-block;
+  display: inline-flex;
 
   margin: 0 15px;
 
